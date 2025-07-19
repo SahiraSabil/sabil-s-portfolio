@@ -1,0 +1,19 @@
+/* Apply Inter font family to the entire body */
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Custom animation for hero text fade-in */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+    animation: fadeIn 1s ease-out forwards;
+}
+
+.animate-fade-in-delay {
+    animation: fadeIn 1s ease-out forwards;
+    animation-delay: 0.3s; /* Delay for the second line of text */
+}
